@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dice rollers</title>
+    <link rel="stylesheet" href="../font/font.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1 class="game-title">Dice roller</h1>
+    <!-- Fixed element where our dices are-->
+    <div class="dices-playground">
+
+        <!-- Value of all the dices on the screen that have rolled -->
+        <span class="dice-total-value"></span>
+
+        <!-- Where our dices are insert when we click on the dices on the dice selector -->
+        <div class="playing-dices"></div>
+        
+        <!-- Button to make the dices roll -->
+        <button class="button">Roll</button>
+        <span class="instructions">Click on dices to add or remove it</span>
+    </div>
+
+    <!-- Fixed element over all where the dices who can chose are   -->
+    <div class="dice-selector"> </div>
+
+    <!-- Menu humerger of our games -->
+    <div class="menu">
+        <div class="menu-humbar"></div>
+        <div class="menu-humbar"></div>
+        <div class="menu-humbar"></div>
+    </div>
+    <!-- The menu that youa acces by clicking the burger menu -->
+    <div class="background-menu">
+        <div class="game-selector">
+            <a href="../dice-roller/index.html" class="game dice-roller-game">Dice roller</a>
+            <a href="../poker/index.html" class="game poker-game">Poker</a>
+            <a href="../dice-fight/index.html" class="game">Dice fight</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
